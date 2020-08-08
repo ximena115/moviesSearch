@@ -27,6 +27,7 @@ export class Movie extends Component{
               <div className="media-content">
                  <p className="title is-4">{title}</p>
                  <p className="subtitle is-6">{year}</p>
+                 <p className="subtitle is-6">votos</p>
               </div>
            </div>
         </div>
