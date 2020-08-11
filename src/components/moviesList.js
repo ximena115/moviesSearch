@@ -15,10 +15,11 @@ export class MovieList extends Component {
                   movies.map((x) => {
                     return (
                       <div key={x.imdbID} className='MoviesList-item' >
-                        <Movie 
-                        title={x.Title} 
-                        year={x.Year} 
-                        poster={x.Poster} 
+                        <Movie
+                          id={x.imdbID}  
+                          title={x.Title} 
+                          year={x.Year} 
+                          poster={x.Poster} 
                         />
                       </div> 
                     )
